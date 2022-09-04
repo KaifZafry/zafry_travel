@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ZAFRY_TRAVELS</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+  <style>
+    .card {
+      overflow: hidden;
+    }
+
+    .mycardBTN {
+      position: relative;
+      bottom: -100px;
+      transition: all 0.3s linear;
+    }
+
+    .card:hover .mycardBTN {
+      bottom: 0px;
+    }
+
+    .card:hover .card-img-top {
+      transform: scale(1.15);
+      transition: all 0.3s linear;
+    }
+
+    .first-btn {
+      background-color: black;
+
+    }
+
+    .first-btn:hover {
+      background-color: rgb(100, 98, 98);
+    }
+
+    .mycard:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 5px 0px rgb(87, 86, 86);
+      transition: all 0.1s linear;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark ">
+    <div class="container">
+      <a class="navbar-brand me-5" href="#">
+        <img height="80px" width="80px"
+          src="https://www.creativefabrica.com/wp-content/uploads/2020/06/18/Plane-Navigation-Travel-Logo-Graphics-4399326-1.png"
+          alt="">
+        ZAFRY_TRAVELS
+
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false"
+        data-bs-target="#india" aria-controls="india" aria-label="toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse ms-4" id="india">
+        <ul class="navbar-nav ">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact us </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row justify-content-between py-5 ">
+      <div class=" col-sm-6 col-md-8 col-lg-5 mb-4">
+        <h1 class="fs-1 text-muted">
+          Lets Explore The World With World Class Travel Agency
+        </h1>
+        <p class="fs-5">Multi platform of a booking row with wide range of hotel option and easy modification
+          for last minute need! with special corporate rates on flights and hotel save your travel budget with
+          less amount and more feature. This is the best travel agency in</p>
+        <button type="button" class="btn first-btn btn-dark btn-lg">Book Now</button>
+      </div>
+      <div id="kaifzafry" class="carousel slide carousel-fade col-sm-6 col-md-4 col-lg-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#kaifzafry" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#kaifzafry" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#kaifzafry" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="https://cdn.pixabay.com/photo/2017/07/19/01/41/clouds-2517653__480.jpg" class="d-block w-100"
+              alt="ZAFRY_TRAVELS ">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p></p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="https://images.pexels.com/photos/7113988/pexels-photo-7113988.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="d-block w-100" alt="turkey with ZAFRY_TRAVELS">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="https://images.pexels.com/photos/2549018/pexels-photo-2549018.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="d-block w-100" alt="Maldives with  ZAFRY_TRAVELS">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#kaifzafry" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#kaifzafry" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%"
+              src="data:image/jpeg;base64,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"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Maldives</h5>
+              <p class="card-text">Meeru island , Maalefushi islands , Beautiful beach and Resorts </p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%"
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg/1920px-Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-sm-start fs-5 mycard">Dubai</h5>
+              <p class="card-text"> Burj khalifa, Abu dhabi ,Burj-ul-arab , Sharjaah , </p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%"
+              src="https://static.toiimg.com/thumb/msid-58472653,width-748,height-499,resizemode=4,imgsize-214340/.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hong Kong</h5>
+              <p class="card-text">Hong-Kong desnyland , Victoriya peak , Hong-Kong islands</p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%"
+              src="https://images.pexels.com/photos/230794/pexels-photo-230794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> London</h5>
+              <p class="card-text">Big Ben, Tower of London, Tower Bridge, London Eye</p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%" src="http://www.indiamarks.com/wp-content/uploads/Kashmir.jpg" class="card-img-top"
+              alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kashmir</h5>
+              <p class="card-text">Sonmarg , Gulmarg , Pahalgaon , Solang-velley</p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%" src="https://static.toiimg.com/photo/68007534.cms" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Keral</h5>
+              <p class="card-text">Alleppey - The Backwater Hot Spot, Munnar , Kovallam</p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%" src="https://wallpaperaccess.com/full/3510417.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bihar</h5>
+              <p class="card-text">Patna , Rajgir , Hathua palace, Mirganj Rajghat , Gaya </p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-6 col-md-4 col-lg-3">
+          <div class="card mycard">
+            <img width="100%"
+              src="https://media.istockphoto.com/photos/rome-italy-picture-id534799507?k=20&m=534799507&s=612x612&w=0&h=cDazKTcyDvBd6c_mrl5SGemTQMlCds4XT4ojuh7_f4k="
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rome</h5>
+              <p class="card-text">Roman Forum, St Peter's Basilica, Castel Sant'Angelo ,Trevi Fountain,</p>
+              <a href="#" class="btn btn-primary mycardBTN">Go Now</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row mt-5 justify-content-center text-center">
+        <div class="col-md-6">
+          <h2>Frequently Asked Questions</h2>
+          <p>Our Team have provided a list of Frequently Asked Questions about ZAFRY_TRAVELS. If you have any other
+            questions, please get in touch.</p>
+        </div>
+      </div>
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Am I guaranteed the lowest fares?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The fares displayed are provided by the airlines and do not include any additional fees payable for using
+              Travelguru services. As such, you are assured of the lowest and best deals as applicable at the time of
+              booking.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item  my-2 border">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How do I make a booking travel for group?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>All group booking requests can be mailed to us at zafrytravels12@gmail.com and we will revert to
+                you within 24 hours. Alternately calling us on +91 9608240986 (standard charges apply) with all
+                details.
+
+                When looking for group bookings, we request you to please include as many details of your travel as
+                possible, as number of adults and children travelling, preferred dates and destinations, budget,
+                etc.</strong>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item  my-2 border">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Can I change my hotel booking?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              You may change your hotel reservation details. However, certain charges as per the hotel policies might be
+              applicable.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item  my-2 border">
+          <h2 class="accordion-header" id="headingfour">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour"
+              aria-expanded="true" aria-controls="collapsefour">
+              Is ZAFRY_TRAVELS.com a safe site to make online bookings?
+            </button>
+          </h2>
+          <div id="collapsefour" class="accordion-collapse collapse show" aria-labelledby="headingfour"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              This is the safest website on internate you can check our customer review then satisfy
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <p class="text-muted">© ZAFRY_TRAVELS 2022</p>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
